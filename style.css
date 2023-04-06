@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #f0f2f5;
+    object-fit: contain;
+    width:100vw;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.converter{
+    padding:2rem;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0.5px 0.5px 2px black;
+}
+h2{
+    margin-bottom:3rem;
+    font-size: 2rem;
+    color: #1877f2;
+}
+.input{
+    margin: 1rem;
+}
+p{
+    font-size: small;
+    padding: 3px;
+    background-color: rgb(244, 237, 237);
+}
+@media screen and (max-width:515px) {
+    .converter{
+        flex-direction: column;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+}
